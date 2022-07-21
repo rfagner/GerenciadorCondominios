@@ -22,11 +22,11 @@ namespace GerenciadorCondominios.BLL.Models
 
         public string Foto { get; set; }
 
-        public int MoradorId { get; set; }
+        public string MoradorId { get; set; }
 
         public virtual Usuario Morador { get; set; }
 
-        public int ProprietarioId { get; set; }
+        public string ProprietarioId { get; set; }
 
         public virtual Usuario Proprietario { get; set; }
     }
